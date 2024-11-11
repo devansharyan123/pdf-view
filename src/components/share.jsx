@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const PDFViewer = () => {
   // URL of the PDF in your S3 bucket
-  const s3PDFUrl = 'https://drive.google.com/file/d/1AWZBaii3J8Gz2c4NHMgTzB1WcN-CPRoj/view';
+  const s3PDFUrl = 'https://kyra-dating-coach.s3.ap-southeast-2.amazonaws.com/Devansh_Aryan.pdf';
 
   const [showPDF, setShowPDF] = useState(false);
 
